@@ -1,0 +1,28 @@
+<div class="row">
+                <div class="login-form">
+                    <h2>Signup buh</h2>
+                    <form action="/register" method="post">
+                        <fieldset>
+		            <div class="clearfix">
+                                <input type="text" name="name" placeholder="Name">
+                            </div>
+ 		            <div class="clearfix">
+                                <input type="text" name="email" placeholder="Email address">
+                            </div>		
+                            <div class="clearfix">
+                                <input type="text" name="username" placeholder="Username">
+                            </div>
+		         	<div class="control-group">
+              			<label class="control-label" for="fileInput">File input</label>
+           			 <div class="controls">
+              				<input class="input-file" id="fileInput" name="image" type="file">
+            			</div>
+         			 </div>
+                            <div class="clearfix">
+                                <input type="password" name="password" placeholder="Password">
+                            </div>
+                            <button class="btn primary" type="submit">Sign in</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
